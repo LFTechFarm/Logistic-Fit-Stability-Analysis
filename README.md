@@ -14,9 +14,9 @@ All experiments use simulated data generated from a known logistic function, all
 
 The model used throughout the analysis is the standard 3-parameter logistic (sigmoid) function:
 
-\[
-y(x) = \frac{L}{1 + \exp\left(-k (x - x_0)\right)}
-\]
+$$
+y(x) = \frac{L}{1 + e^{-k (x - x_0)}}
+$$
 
 where:
 
